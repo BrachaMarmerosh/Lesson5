@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Repositories
+namespace MockContext
 {
     public class Class1
     {

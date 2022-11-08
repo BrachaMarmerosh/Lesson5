@@ -12,10 +12,10 @@ namespace Repositories.entities
         public string name { get; set; }
         public BankAcount[] bankAcounts { get; set; }
 
-        public static Customer FindCustomerByTz(Customer[] customers,string tz)
+        public static Customer FindCustomerByTz(Customer[] c,string tz)
         {
-            var cu=customers.ToList().Where(c => c.tz == tz);
-            return cu;
+            var q = c.ToList().Find(i => i.tz == tz);
+            return q;
         }
     }
 }

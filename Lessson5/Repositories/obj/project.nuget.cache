@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "E38zGde8S1w/8vPpxdKSM1X4QcGaDA3XEMfJ/brcnBci09GyzYx+3mbHgI4Se2wRNtZ0hvpIxb0YlzNn1dWFpw==",
-  "success": true,
+  "dgSpecHash": "6S9t40GbeHcKT1Rp9oPZ80Web1sdsbgbxK3nTtczEVnyGsSXD4zdcPofrCMSKJaDibdgol1VAXMijw4CId9dcw==",
+  "success": false,
   "projectFilePath": "Y:\\Groups\\2\\מרמרוש ברכה\\DotNet\\Lesson5\\Lessson5\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Ref"
+    }
+  ]
 }

@@ -1,16 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LjsWEaY4/83lhRw+j4innf8rmlxHgkiZgS98gD+B4UJ6bVbfmDhwERNUPiiUdCMiO19aElULN4fgWA+pV9umYQ==",
+  "dgSpecHash": "khKJW0Iwd93KuHLQZhr+DhyBx2EoqjORB5mew9rOn3MdIubV8V3bZGVbgOXX9XxuKaArX1G8Xas2SZzpJy9gmA==",
   "success": false,
-  "projectFilePath": "Y:\\Groups\\2\\מרמרוש ברכה\\DotNet\\Lesson5\\Lessson5\\Lessson5\\Lessson5.csproj",
+  "projectFilePath": "Y:\\Groups\\2\\מרמרוש ברכה\\DotNet\\Lesson5\\Lessson5\\MockContext\\MockContext.csproj",
   "expectedPackageFiles": [],
   "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "libraryId": "Microsoft.NETCore.App.Host.win-x64"
-    },
     {
       "code": "NU1301",
       "level": "Error",
