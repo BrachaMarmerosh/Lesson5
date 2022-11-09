@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace Repositories.entities
 {
-    class Bank
+   public class Bank
     {
         public int code { get; set; }
         public string name { get; set; }
-        public Customer[] customers { get; set; }
-        public static List<Customer> sortCustomers(Customer[] customers)
+        public List<Customer> customers { get; set; }
+        public static List<Customer> sortCustomers(List<Customer> customers)
         {
-            var sortCustomerslist = customers.ToList().OrderBy(c => c.bankAcounts.Length).ToList();
+            var sortCustomerslist = customers.ToList().OrderBy(c => c.bankAcounts.Count).ToList();
             return sortCustomerslist;
         }
 
-          
+        public Bank(int code, string name,List<Customer> customers)
+        {
+            this.code = code;
+            this.name = name;
+            this.customers = customers;
+        }
     }
 }

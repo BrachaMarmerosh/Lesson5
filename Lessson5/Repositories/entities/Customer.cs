@@ -6,16 +6,27 @@ using System.Threading.Tasks;
 
 namespace Repositories.entities
 {
-    class Customer
+    public class Customer
     {
         public string tz { get; set; }
         public string name { get; set; }
-        public BankAcount[] bankAcounts { get; set; }
+        public List<BankAcount> bankAcounts { get; set; }
 
-        public static Customer FindCustomerByTz(Customer[] c,string tz)
+        public Customer(string tz, string name, List<BankAcount> bankAcounts)
         {
-            var q = c.ToList().Find(i => i.tz == tz);
+            this.tz = tz;
+            this.name = name;
+            this.bankAcounts = bankAcounts;
+        }
+
+        public static Customer FindCustomerByTz(List<Customer> c,string tz)
+        {
+            var q = c.Find(i => i.tz == tz);
             return q;
         }
+       
+     
+
+         
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Repositories.entities
 {
-    class BankAcount
+    public class BankAcount
     {
         private int acountNum;
 
@@ -20,5 +20,14 @@ namespace Repositories.entities
         public int ytra { get; set; }
         public int afkada { get; set; }
         public int meshicha { get; set; }
+
+        public BankAcount(int acountNum, int ytra, int afkada, int meshicha)
+        {
+            AcountNum = acountNum;
+            this.ytra = ytra;
+            this.afkada = afkada;
+            this.meshicha = meshicha;
+        }
     }
+
 }

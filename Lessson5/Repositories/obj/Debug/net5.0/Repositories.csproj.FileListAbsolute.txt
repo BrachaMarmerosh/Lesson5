@@ -1,0 +1,12 @@
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\bin\Debug\net5.0\Repositories.deps.json
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\bin\Debug\net5.0\Repositories.dll
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\bin\Debug\net5.0\ref\Repositories.dll
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\bin\Debug\net5.0\Repositories.pdb
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\obj\Debug\net5.0\Repositories.csproj.AssemblyReference.cache
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\obj\Debug\net5.0\Repositories.csproj.CoreCompileInputs.cache
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\obj\Debug\net5.0\Repositories.dll
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\obj\Debug\net5.0\ref\Repositories.dll
+Y:\Groups\2\מרמרוש ברכה\DotNet\Lesson5\Lessson5\Repositories\obj\Debug\net5.0\Repositories.pdb

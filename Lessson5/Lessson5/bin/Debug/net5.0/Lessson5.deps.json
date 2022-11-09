@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Lessson5/1.0.0": {
+        "dependencies": {
+          "MockContext": "1.0.0"
+        },
+        "runtime": {
+          "Lessson5.dll": {}
+        }
+      },
+      "MockContext/1.0.0": {
+        "dependencies": {
+          "Repositories": "1.0.0"
+        },
+        "runtime": {
+          "MockContext.dll": {}
+        }
+      },
+      "Repositories/1.0.0": {
+        "runtime": {
+          "Repositories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lessson5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MockContext/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
