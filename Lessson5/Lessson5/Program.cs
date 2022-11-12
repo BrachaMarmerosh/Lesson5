@@ -5,7 +5,7 @@ namespace Lessson5
 {
     class Program
     {
-        
+        //יפה!!
         //main in program
         static void Main(string[] args)
         {
